@@ -1,10 +1,8 @@
 import urllib.request, urllib.parse, urllib.error
 import keys
 import urllib.request, urllib.parse, urllib.error
-import twurl
-
+from twurl import *
 import ssl
-
 
 
 def augment(url, parameters):
